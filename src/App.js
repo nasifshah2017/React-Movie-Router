@@ -27,3 +27,14 @@ class App extends Component{
   }
 
 export default App;
+
+// If we go to the Component Definition of Movie in Movie.js
+// and console.log(props). We will get 4 objects on our 
+// console "history", "location", "match" and "staticContext".
+// These 4 objects are provided by the "Route" component that
+// we imported from "ReactDom". Inside the match object we will  
+// find an item with key "movieId" and the value of this key will   
+// be the id of the movie that the page is displaying. We got this
+// id from our axios response and it uniquely defines the movie.
+
+
