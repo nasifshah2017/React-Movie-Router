@@ -33,8 +33,8 @@ export default App;
 // console "history", "location", "match" and "staticContext".
 // These 4 objects are provided by the "Route" component that
 // we imported from "ReactDom". Inside the match object we will  
-// find an item with key "movieId" and the value of this key will   
-// be the id of the movie that the page is displaying. We got this
-// id from our axios response and it uniquely defines the movie.
-
-
+// find another object called "params". Params stands for parameters, 
+// and it will contain an object item with key "movieId" and the 
+// value of this key will be the id of the movie that the page is 
+// displaying. We got this id from our axios response and it uniquely 
+// defines the movie.
